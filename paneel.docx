@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vb0203;
+
+import javax.swing.JButton;
+
+/**
+ *
+ * @author ROC
+ */
+public class Paneel extends Jpanel {
+    
+    private JButton knop;
+    private JTextfield tekstvak;
+    
+    public Paneel()
+    {
+        knop = new JButton( "KLIK" );
+        tekstvak = new JTextField( 10 );
+        add( knop );
+        add ( tekstvak );
+    }
+}
